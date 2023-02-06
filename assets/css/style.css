@@ -16,7 +16,8 @@ body {
     flex-direction: column;
     padding-top: 50px;
     overflow: hidden;
- }
+}
+
 
  /* Questions container */
 
@@ -68,6 +69,7 @@ body {
     background-color: #B22222;
     cursor: pointer;
     color: #fff;
+    text-align: cemter;
  }
 
 
@@ -81,4 +83,16 @@ body {
     margin-bottom: 50px;
     font-family: 'Rajdhani', sans-serif;
     font-size: 3rem;
+}
+
+/* Index.html paragraph and buttons */
+
+#prg {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.8rem;
+}
+
+#buttons {
+    display: flex;
 }
