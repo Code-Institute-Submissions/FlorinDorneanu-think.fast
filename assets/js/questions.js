@@ -1,4 +1,5 @@
-const questionBox = [
+
+export const questionBox = [
     {
         question : "How many bones are there in an adult human body?",
         answer1 : "186",

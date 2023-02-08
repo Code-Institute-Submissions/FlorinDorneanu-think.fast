@@ -33,7 +33,7 @@ body {
  }
 
  h1 {
-    padding: 1rem;
+    padding: 0.3rempx;
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 2.5rem;
@@ -79,7 +79,7 @@ body {
     padding-bottom: 100px;
 }
 
-#timer {
+.timer {
     margin-bottom: 50px;
     font-family: 'Rajdhani', sans-serif;
     font-size: 3rem;
