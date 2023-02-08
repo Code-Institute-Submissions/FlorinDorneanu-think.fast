@@ -67,13 +67,30 @@ submitButton.addEventListener("click", () => {
         }
         currentQuestionsGame++;
         if(currentQuestionsGame < questionBox.length) {
-            loadQuestionGame()
+            loadQuestionGame();
         } else {
             questionsGame.innerHTML = `
-            <h2>You answered ${score}/${questionBox.length} questions correctly</h2>
-
+            <h2 >You answered ${score}/${questionBox.length} questions correctly</h2>
             <button onclick="location.reload()">Reload</button>
             `
         }
     }       
 })    
+
+// - Put timer count for questions game -
+
+let sec = 100;
+let time = setInterval(myTimer, 1000);
+
+function myTimer() {
+    document.getElementsByClassName("timer_count").innerHTML = sec + "sec left";
+    sec--;
+    if (sec == -1) {
+        clearInterval(time);
+        questionsGame.innerHTML = `
+            <h2 >You answered ${score}/${questionBox.length} questions correctly</h2>
+            <button onclick="location.reload()">Reload</button>
+            `
+    }
+}
+   

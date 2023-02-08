@@ -69,7 +69,12 @@ body {
     background-color: #B22222;
     cursor: pointer;
     color: #fff;
-    text-align: cemter;
+    text-align: center;
+ }
+
+ #btn {
+    margin: auto;
+    margin-bottom: 20px;
  }
 
 
