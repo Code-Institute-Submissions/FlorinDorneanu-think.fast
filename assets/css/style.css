@@ -79,11 +79,17 @@ body {
     padding-bottom: 100px;
 }
 
-.timer {
+#timer {
     margin-bottom: 50px;
     font-family: 'Rajdhani', sans-serif;
     font-size: 3rem;
+    display: flex;
 }
+
+.timer_count {
+    margin-left: 20px;
+}
+
 
 /* Index.html paragraph and buttons */
 
