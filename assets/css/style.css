@@ -23,6 +23,7 @@ body {
     background-color: rgba(255, 223, 0, 0.8);
     border-radius: 20px;
     overflow: hidden;
+    width: 80%;
  }
 
  .questions-header {
@@ -118,7 +119,7 @@ body {
    border-radius: 10px;
    list-style: none;
    overflow: hidden;
-   width: 60%;
+   max-width: 90%;
 }
 
 #game-rules li {
@@ -144,7 +145,19 @@ body {
 
 @media (max-width: 380px) {
     #questions-container {
-        max-width: 95%;
+        width: 95%;
+    }
+
+    #container {
+        width: 90%;
+    }
+
+    #game-rules {
+        width: 95%;
+    }
+
+    #logo {
+        width: 80%;
     }
 }
     
