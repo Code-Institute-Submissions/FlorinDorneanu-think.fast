@@ -131,3 +131,11 @@ body {
     color: black;
     
 }
+
+/* End page title and button */
+
+#end_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
