@@ -72,17 +72,19 @@ submitButton.addEventListener("click", () => {
             loadQuestionGame();
         } else {
             questionsGame.innerHTML = `
-            <h2 id="h2txt">You answered ${score}/${questionBox.length} questions correctly</h2>
-            <button id="buttontxt" onclick="location.reload()">Reload</button>
+            <div id="end_page">
+            <h2>You answered ${score}/${questionBox.length} questions correctly</h2>
+            <button onclick="location.reload()">Reload</button>
+            <button onclick="window.location.href='index.html'">Quit</button>
+            </div>
             `
-            document.getElementById("h2txt").style.margin = "auto";
-            document.getElementById("buttontxt").style.margin = "auto";
+
         }
     }       
 })    
 
    
-let timeLeft = 10;
+let timeLeft = 60;
 
 function countdown() {
 	timeLeft--;
@@ -94,8 +96,12 @@ function countdown() {
             <div id="end_page">
             <h2>You answered ${score}/${questionBox.length} questions correctly</h2>
             <button onclick="location.reload()">Reload</button>
+            <button onclick="window.location.href='index.html'">Quit</button>
             </div>
             `
+    }
+    if(questionBox.length === 0) {
+        timeLeft = [0];
     }
 };
 
