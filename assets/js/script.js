@@ -19,7 +19,7 @@ let score = 0;
 let timeValue = 10;
 
 
-// - Function to load the questions game -
+// - Function to load the questions and answers -
 
 loadQuestionGame();
 
@@ -57,7 +57,9 @@ function getSelected () {
 }
 
 
-// - Create event listener to submit button -
+// -  Get the correct answer,
+//  create title to display the counter of correct answers
+//  and button to reload the guestions game
 
 submitButton.addEventListener("click", () => {
     const answer = getSelected()
@@ -77,20 +79,31 @@ submitButton.addEventListener("click", () => {
     }       
 })    
 
-// - Put timer count for questions game -
+// - Code to create timer count for questions game -
 
-let sec = 100;
-let time = setInterval(myTimer, 1000);
+//let sec = 100;
+//let time = setInterval(myTimer, 1000);
 
-function myTimer() {
-    document.getElementsByClassName("timer_count").innerHTML = sec + "sec left";
-    sec--;
-    if (sec == -1) {
-        clearInterval(time);
-        questionsGame.innerHTML = `
-            <h2 >You answered ${score}/${questionBox.length} questions correctly</h2>
-            <button onclick="location.reload()">Reload</button>
-            `
-    }
-}
+//function myTimer() {
+    //document.getElementsByClassName("timer_count").innerHTML = sec + "sec left";
+    //sec--;
+    //if (sec == -1) {
+        //clearInterval(time);
+        //questionsGame.innerHTML = `
+            //<h2 >You answered ${score}/${questionBox.length} questions correctly</h2>
+            //<button onclick="location.reload()">Reload</button>
+            //`
+    //}
+//}
    
+timeLeft = 60;
+
+function countdown() {
+	timeLeft--;
+	document.getElementById("timer_count").innerHTML = String( timeLeft );
+	if (timeLeft > 0) {
+		setTimeout(countdown, 1000);
+	}
+};
+
+setTimeout(countdown, 1000);
