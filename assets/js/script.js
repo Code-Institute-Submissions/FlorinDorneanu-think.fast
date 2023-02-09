@@ -16,7 +16,6 @@ const submitButton = document.getElementById("btn");
 
 let currentQuestionsGame = 0;
 let score = 0;
-let timeValue = 10;
 
 
 // - Function to load the questions and answers -
@@ -99,9 +98,6 @@ function countdown() {
             <button onclick="window.location.href='index.html'">Quit</button>
             </div>
             `
-    }
-    if(questionBox.length === 0) {
-        timeLeft = [0];
     }
 };
 
