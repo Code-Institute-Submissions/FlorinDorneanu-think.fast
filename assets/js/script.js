@@ -79,31 +79,20 @@ submitButton.addEventListener("click", () => {
     }       
 })    
 
-// - Code to create timer count for questions game -
-
-//let sec = 100;
-//let time = setInterval(myTimer, 1000);
-
-//function myTimer() {
-    //document.getElementsByClassName("timer_count").innerHTML = sec + "sec left";
-    //sec--;
-    //if (sec == -1) {
-        //clearInterval(time);
-        //questionsGame.innerHTML = `
-            //<h2 >You answered ${score}/${questionBox.length} questions correctly</h2>
-            //<button onclick="location.reload()">Reload</button>
-            //`
-    //}
-//}
    
-timeLeft = 60;
+let timeLeft = 100;
 
 function countdown() {
 	timeLeft--;
 	document.getElementById("timer_count").innerHTML = String( timeLeft );
 	if (timeLeft > 0) {
 		setTimeout(countdown, 1000);
-	}
+	} else {
+        questionsGame.innerHTML = `
+            <h2 >You answered ${score}/${questionBox.length} questions correctly</h2>
+            <button onclick="location.reload()">Reload</button>
+            `
+    }
 };
 
 setTimeout(countdown, 1000);
