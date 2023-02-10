@@ -182,3 +182,33 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 * I now want to save my changes to the local repository by typing git commit –m “ ” into the terminal. Between the “ ” I'll write a concise message detailing what this commit has done.
 * When I either want to upload all my changes for the day or view on GitHub Pages I push all the commits I’ve previously done to GitHub using the git push command. When GitHub Pages is set up for the repository in question it will automatically pick up these changes and display the most up to date version that has been pushed.
 ***
+
+## Debugging
+* Function loadQuestionGame didn't load the questions. Fixed by setting a variable currentQuestionGame with the value of 0 and assigned it to currentQuestionBox.
+* Function getSelected didn't work. Fixed by creating a deselectAnswers function.
+* When countdown got to 0, the timer didn't display the correct answer. Fixed by adding else statement where I've added innerHtml to questionsGame.
+
+## Credits
+
+### Acknowledgements
+* Tutor support at Code Institute for their help.
+* [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
+* [W3schools](https://www.w3schools.com) - for various code information.
+* [Balsamiq wireframes](https://balsamiq.cloud/) - To build wireframes in the design phase.
+* [Font Awesome](https://fontawesome.com/) - For the icon presented next to the title, the icons used for the correct and incorrect answer and for the favicon.
+* [Beautifier](https://beautifier.io) - To beautify my code.
+* [Prettier](https://prettier.io/) - To beautify Javascript code.
+* [JsHint](https://jshint.com) - Testing validity of JavaScript.
+* [Online-Convert](https://image.online-convert.com/convert-to-webp) - To convert my images to WebP.
+* [HTML Validator](https://validator.w3.org) - Testing validity of HTML.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
+* [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
+
+## Code
+* Code on how to select answers came from this website [Useful language](https://usefulangle.com/post/254/javascript-loop-through-select-options).
+* Code on how to submit answers came from this website [Stackoverflow](https://stackoverflow.com/questions/60476845/addeventlistener-and-if-statement-on-button-clicked).
+* Code on how to set timer came from this website [Educative](https://www.educative.io/answers/how-to-set-a-timer-in-javascript).
+
+## Content
+Questions and answers for the quiz game were taken from this website [Kwizzbit](https://kwizzbit.com/50-general-knowledge-quiz-questions-and-answers/).
+

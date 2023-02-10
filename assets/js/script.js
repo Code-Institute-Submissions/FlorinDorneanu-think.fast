@@ -81,6 +81,7 @@ submitButton.addEventListener("click", () => {
 
 let timeLeft = 60;
 
+// - Set Timer -
 function countdown() {
   timeLeft--;
   document.getElementById("timer_count").innerHTML = String(timeLeft);
