@@ -63,6 +63,7 @@ The chosen fonts are "Rajdhan" and "Teko". The "Teko" font was used for the head
 * A list of 100 questions from where only 10 questions will be randomly selected.
 * To use random storage for registering the question game and highscore.
 * The incorrect and correct answer to have different colours.
+* The timer to show "00" when all the questions are answered and the result of the user appears.
 ***
 
 # Technologies Used
