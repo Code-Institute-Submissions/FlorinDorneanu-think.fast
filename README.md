@@ -189,6 +189,9 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 * Function getSelected didn't work. Fixed by creating a deselectAnswers function.
 * When countdown got to 0, the timer didn't display the correct answer. Fixed by adding else statement where I've added innerHtml to questionsGame.
 
+# Known Bugs
+After the quiz game ends, the quit button is pressed and the homepage apppears, an error is shown in the console. This error disappears after the Start button is pressed and doesn't seem to disrupt the game. Will be fixed in the future.
+
 ## Credits
 
 ### Acknowledgements
