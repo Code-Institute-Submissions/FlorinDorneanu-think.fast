@@ -86,3 +86,19 @@ The chosen fonts are "Rajdhan" and "Teko". The "Teko" font was used for the head
 * [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
 * DEV Tools - Lighthouse.
 ***
+
+## Testing
+
+### Validator Testing
+
+* HTML Validator
+![HTML Validator for index.html](images-for-readme/html-validator.png)
+![HTML Validator for questions-container.html](images-for-readme/html-validator.png)
+![HTML Validator for rules.html](images-for-readme/html-validator.png)
+* CSS Validator
+![HTML Validator](images-for-readme/css-validator.png)
+* Javascript Validator for script.js file
+![script.js Validator](images-for-readme/script.js-validator.png)
+* Javascript Validator for questions.js file
+![questions.js Validator](images-for-readme/questions.js-validator.png)
+
