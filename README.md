@@ -203,6 +203,7 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 * [HTML Validator](https://validator.w3.org) - Testing validity of HTML.
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
 * [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
+* [Favicon](https://favicon.io/) - For the making of the favicon.
 
 ## Code
 * Code on how to select answers came from this website [Useful language](https://usefulangle.com/post/254/javascript-loop-through-select-options).
