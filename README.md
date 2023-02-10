@@ -111,3 +111,15 @@ Tested using the Developer Tools Lighthouse for desktop and mobile :
 
 ### Mobile
 ![DevTools Mobile](images-for-readme/lighthouse-mobile.png)
+
+## Testing - Table of Contents
+
+| Test Description  | Expected Outcome  | Actual Outcome  |  Re-Test |
+|---|---|---|---|
+| Test the Start button  | When the button is clicked the quiz game should appear  | Passed  | Passed  |
+| Test the Game Rules button  | The button should open the rules of the game  | Passed  | Passed  |
+| Test the Start button on the Game Rules screen  | The button should send the user to the quiz game  | Passed  | Passed  |
+| Test the Submit button  | The button should send the user to the next question and when the questions are completed, the button should present the score to the user  | Passed  | Passed  |
+| Test the Reload button  | When the button is clicked the quiz game should reload  | Passed  | Passed  |
+| Test the Quit button  | The button should quit the game and open the homepage  | Passed  | Passed  |
+| Test the timer  | The timer should go from 60 seconds to 0 seconds, if time has passed and the questions are not completely answered, then the game finishes  | Passed  | Passed  |
