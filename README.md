@@ -13,3 +13,18 @@ The GitHub repository can be viewed here - [FlorinDorneanu/think.fast](https://g
 
 ![Responsive](images-for-readme/am-i-responsive.png)
 ***
+## User Experience (UX)
+
+### Strategy
+
+### User Stories
+As a user I want to be able to :
+* Understand what the quiz is about.
+* Be able to know the rules of the game.
+* Easily enter the quiz.
+* Quit the quiz with ease.
+* See how much time I have left to answer the questions.
+* Easily select the options provided.
+* To submit the answer with ease.
+* Get the final score at the end of the quiz.
+* Replay the quiz.
