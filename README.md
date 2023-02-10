@@ -123,3 +123,16 @@ Tested using the Developer Tools Lighthouse for desktop and mobile :
 | Test the Reload button  | When the button is clicked the quiz game should reload  | Passed  | Passed  |
 | Test the Quit button  | The button should quit the game and open the homepage  | Passed  | Passed  |
 | Test the timer  | The timer should go from 60 seconds to 0 seconds, if time has passed and the questions are not completely answered, then the game finishes  | Passed  | Passed  |
+
+### Browser Compatibility
+
+The website was tested on the following browsers:
+* Google Chrome, desktop and mobile;
+* Safari, desktop and mobile;
+* Mozila Firefox, desktop and mobile.
+
+### OS Compatibility
+
+Tested on iOS, macOS and Android. 
+Chrome Developer Tools was used for testing the responsiveness.
+***
