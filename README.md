@@ -42,3 +42,25 @@ The quiz game will have :
 
 
 * Mobile Wireframes - [Homepage](images-for-readme/think.fast-wireframes-homepage-mobile.png)/[Rules](images-for-readme/game-rules-mobile.png)/[Quiz](images-for-readme/quiz-game-mobile.png)/[Score](images-for-readme/score-mobile.png)
+
+## Surface
+
+### Colour
+A shade of red and a shade of yellow were used primarily on the website. The colours were chosen for their playful vibe and the nice contrast. Black and white, being strong in contrast colours, were used for typography because they work great with the primary colours.
+
+### Typography
+The chosen fonts are "Rajdhan" and "Teko". The "Teko" font was used for the heading and the "Rajdhan" was used for the answers. The fonts have been taken from [Google Fonts](https://fonts.google.com/).
+
+### Call to Action
+* The "Start" button takes the user to the questions of the quiz game.
+* The "Game Rules" button opens the rules of the game. From there the user can click on the button "Start" that takes the user to the questions of the quiz.
+* The "Submit" button takes the user to the next question.
+* At the end of the questions, when the user presses on the "Submit" button, the user will be presented with the score achieved.
+* At the end of the game, the user can choose to press the "Reload" button for another play of the quiz.
+
+### Features to Implement in future
+* A highscore board;
+* A list of 100 questions from where only 10 questions will be randomly selected.
+* To use random storage for registering the question game and highscore.
+* The incorrect and correct answer to have different colours.
+***
