@@ -102,3 +102,12 @@ The chosen fonts are "Rajdhan" and "Teko". The "Teko" font was used for the head
 * Javascript Validator for questions.js file
 ![questions.js Validator](images-for-readme/questions.js-validator.png)
 
+### Performance Testing
+
+Tested using the Developer Tools Lighthouse for desktop and mobile :
+
+### Desktop
+![DevTools Desktop](images-for-readme/lighthouse-desktop.png)
+
+### Mobile
+![DevTools Mobile](images-for-readme/lighthouse-mobile.png)
