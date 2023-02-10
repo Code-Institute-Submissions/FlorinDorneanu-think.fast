@@ -64,3 +64,25 @@ The chosen fonts are "Rajdhan" and "Teko". The "Teko" font was used for the head
 * To use random storage for registering the question game and highscore.
 * The incorrect and correct answer to have different colours.
 ***
+
+# Technologies Used
+* HTML5 - Mark-up language using semantic structure.
+* CSS3 - Cascading style sheet used for styling.
+* Gitpod.io - For writing the code, using the command line for commiting and pushing to GitHub.
+* GitHub - Used to host the repository.
+* Git - Used for version control of the project.
+
+### Design
+* [Google fonts](https://fonts.google.com/) - For styling the typography.
+* [Balsamiq wireframe](https://balsamiq.cloud/) - To build wireframes in the design phase.
+* [Beautifier](https://beautifier.io) - To beautify HTML and CSS code.
+* [Prettier](https://prettier.io/) - To beautify Javascript code.
+* [Logo](https://logo.com) - To make the logo of the website.
+
+### Testing
+* [JsHint](https://jshint.com) - Testing validity of JavaScript.
+* [HTML Validator](https://validator.w3.org/#validate_by_input) - Testing validity of HTML.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
+* [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
+* DEV Tools - Lighthouse.
+***
