@@ -28,3 +28,17 @@ As a user I want to be able to :
 * To submit the answer with ease.
 * Get the final score at the end of the quiz.
 * Replay the quiz.
+
+## Structure
+
+The quiz game will have :
+* A homepage containing the logo, an inviting message, a button to start the game and a button for the rules of the quiz.
+* A Game Rules screen which will contain the rules of the game and a button to start the quiz.
+* The quiz game that will consists of a timer, question, for options and a "Submit" button.
+* A Result screen containing the score of the user, a "Replay" button and a "Quit" button.
+
+## Skeleton
+* Desktop Wireframes - [Homepage](images-for-readme/think.fast-wireframe-homepage-desktop.png)/[Rules](images-for-readme/game-rules-desktop.png)/[Quiz](images-for-readme/quiz-game-desktop.png)/[Score](images-for-readme/score-desktop.png)
+
+
+* Mobile Wireframes - [Homepage](images-for-readme/think.fast-wireframes-homepage-mobile.png)/[Rules](images-for-readme/game-rules-mobile.png)/[Quiz](images-for-readme/quiz-game-mobile.png)/[Score](images-for-readme/score-mobile.png)
