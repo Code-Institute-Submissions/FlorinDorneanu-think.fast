@@ -195,7 +195,7 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 * [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
 * [W3schools](https://www.w3schools.com) - for various code information.
 * [Balsamiq wireframes](https://balsamiq.cloud/) - To build wireframes in the design phase.
-* [Font Awesome](https://fontawesome.com/) - For the icon presented next to the title, the icons used for the correct and incorrect answer and for the favicon.
+* [Logo](https://logo.com) - To make the logo of the website.
 * [Beautifier](https://beautifier.io) - To beautify my code.
 * [Prettier](https://prettier.io/) - To beautify Javascript code.
 * [JsHint](https://jshint.com) - Testing validity of JavaScript.
